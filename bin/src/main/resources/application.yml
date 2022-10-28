@@ -1,0 +1,29 @@
+## Embedded server configuration
+server:
+   port: 8120
+
+## Log level configuration
+logging:
+   level:
+      ROOT: INFO
+      com.vantea: TRACE
+
+## Multichain configuration
+multichain:
+   rpc:
+      host: 127.0.0.1
+      auth: bXVsdGljaGFpbnJwYzpCcGNuOHA5Sk5SUG9SUWNObUZFVzJwTTM5U0J0WjI3VHdXZVhEeXI3OEJMNQ
+      port: 55555
+      baseurl: http://127.0.0.1:55555
+      adminAddress: 1BsiV3dhWwvmtQB8LeyBj2FAhgQtoCvuYW
+      nodePingTimeoutMs: 500 
+      
+## Security configuration
+spring:
+   security:
+      user:
+         name: wrapper
+         password: password
+         
+
+
